@@ -1,0 +1,13 @@
+<div id="wrapper">
+    <h1>Note Scraper</h1>
+    <div id="articles">
+        {{#each articles}}
+        <p data-id="{{this.id}}">
+            {{this.title}}
+            <br>
+            {{this.link}}
+        </p>
+        {{/each}}
+    </div>
+    <div id="notes"></div>
+</div>
